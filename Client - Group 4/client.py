@@ -11,8 +11,7 @@ import tkinter.font as font
 LARGE_FONT= ("Verdana", 12)
 
 ## CLIENT APPLICATION FOR SIMPLE FILE TRASNFER
-#ENGINEERED BY 
-#   MICHELLE AND MICHAEL VASCONCELOS
+#ENGINEERED BY Michael Vasconcelos
 
 
 
@@ -130,7 +129,7 @@ class StartPage(Frame):
         self.labels()
         self.buttons(controller)
 
-        label2 = Label(self, text="Engineered By:\nMichael Vasconcenlos\nMichelle Vasconcelos",font=LARGE_FONT,)
+        label2 = Label(self, text="Engineered By:\nMichael Vasconcelos",font=LARGE_FONT,)
         label2.pack(side=BOTTOM)
 
     # LABELS ON PAGE, THIS ASK FOR THE INFORMATION
