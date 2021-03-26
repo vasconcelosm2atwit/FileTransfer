@@ -12,7 +12,6 @@ LARGE_FONT= ("Verdana", 12) #FINAL VARIABLE FOR FONT AND SIZE
 #SERVER APPLICATION ON SIMPLE FILE TRASNFER APPLICATION
 #ENGINEERED BY:
 #   MICHAEL VASCONCELOS
-#   MICHELLE VASCONCELOS
 
 
 # CONTROLLER CLASS, THIS CLASS IS RESPONSIBLE FOR RUNNING THE OTHER PAGES AND PROVIDING INFORMATION 
@@ -169,7 +168,7 @@ class StartPage(Frame):
         self.labels(controller)
         self.buttons(controller)
 
-        label2 = Label(self, text="Engineered By:\nMichael Vasconcenlos\nMichelle Vasconcelos",font=LARGE_FONT,)
+        label2 = Label(self, text="Engineered By:\nMichael Vasconcenlos",font=LARGE_FONT,)
         label2.pack(side=BOTTOM)
 
         
