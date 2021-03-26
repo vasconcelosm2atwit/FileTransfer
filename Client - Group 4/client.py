@@ -10,8 +10,9 @@ import tkinter.font as font
 
 LARGE_FONT= ("Verdana", 12)
 
-## CLIENT APPLICATION FOR SIMPLE FILE TRASNFER
-#ENGINEERED BY Michael Vasconcelos
+## CLIENT APPLICATION FOR SIMPLE FILE TRANSFER
+#ENGINEERED by 
+#          Michael Vasconcelos
 
 
 
